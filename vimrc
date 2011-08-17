@@ -48,11 +48,11 @@ map \ :NERDTreeToggle<CR>
 map \| :NERDTreeFind<CR>
 
 "strip trailing whitespace on save for code files
-"cocoa
+" cocoa
 autocmd BufWritePre *.m,*.h,*.c,*.mm,*.cpp,*.hpp :%s/\s\+$//e
-"rails
+" rails
 autocmd BufWritePre *.rb,*.yml,*.js,*.json,*.css,*.less,*.sass,*.html,*.xml,*.erb,*.haml :%s/\s\+$//e
-"misc
+" misc
 autocmd BufWritePre *.java,*.php,*.feature :%s/\s\+$//e
 
 "highlight JSON files as javascript
@@ -95,8 +95,8 @@ set ignorecase
 set smartcase
 
 "font
-set guifont=Inconsolata:h24 "Huge and not always there ...
-set guifont=Monaco:h18
+set guifont=Inconsolata:h11 "Huge and not always there ...
+set guifont=Monaco:h11
 
 "history size
 set history=1024
@@ -117,7 +117,7 @@ set laststatus=2
 set showmatch
 
 "tab settings
-set tabstop=2
+set tabstop=4
 set smarttab
 set shiftwidth=2
 set autoindent
