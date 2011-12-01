@@ -24,6 +24,10 @@ endfunction
 
 " SHORTCUT KEY MAPPINGS """""""""""""""""""
 
+"best shortcut ever if you regularly work with large json docs -- doesn't work
+"atm.. :P
+map <leader>j <ESC>:!python -m json.tool
+
 "prev/next in quickfix file listing (e.g. search results)
 map <M-D-Down> :cn<CR>
 map <M-D-Up> :cp<CR>
@@ -95,8 +99,8 @@ set ignorecase
 set smartcase
 
 "font
-set guifont=Inconsolata:h11 "Huge and not always there ...
-set guifont=Monaco:h11
+set guifont=Menlo:h16
+set guifont=Monaco:h16
 
 "history size
 set history=1024
